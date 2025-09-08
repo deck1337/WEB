@@ -1,0 +1,252 @@
+@font-face {
+  font-family: "FindSansPro";
+  src:url("fonts/FindSansPro-Medium.ttf");
+}
+
+
+
+
+
+.mainpage {
+    min-height: 100vh;
+    background-image: url("zvez.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+  
+}
+
+body {
+
+  background: linear-gradient(90deg,  #2916d7, #03528a);
+  
+}
+
+
+
+
+
+
+
+
+.header {
+    padding: 2px;
+    border-radius: 50px; 
+    background: #111827;
+    box-shadow: 0 6px 12px #111622;
+}
+
+.header h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-family: "FindSansPro";
+    font-size: 64px;
+    background: linear-gradient(90deg, #2916d7, #2299ee);
+    background-clip: text;
+    color: transparent;
+}
+.header p {
+    padding-top: 5px;
+    text-align: center;
+    font-family: "FindSansPro";
+    font-size: 48px;
+    background: linear-gradient(90deg,#2916d7, #2299ee);
+    background-clip: text;
+    color: transparent;
+    
+}
+
+
+
+
+
+.index a {
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family: "FindSansPro";
+    font-size: 48px;
+    background: linear-gradient(90deg, #7c3aed,  #22d3ee);
+    background-clip: text;
+    color: transparent;
+
+}
+.index {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 2px;
+    border-radius: 50px;         
+    background: #192133;
+    box-shadow: 0 3px 6px #111622;
+    display: flex;
+    flex-direction: column;  
+}
+
+
+
+
+
+.index footer a{
+    font-family: "FindSansPro";
+    font-size: 48px;
+    background: linear-gradient(90deg, #2916d7,  #1044ee);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+
+footer {
+    line-height: 2;
+    text-align: center;
+    padding: 50px ;
+    border-radius: 50px;         
+    background: #111827;
+    box-shadow: 0 6px 12px #111622;
+    
+}
+
+
+
+.planet img {
+  width: 30%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50px;
+  
+
+}
+
+
+
+
+.planet h1,th {
+    padding-left: 30px;
+    font-family: "FindSansPro";
+    font-size: 48px;
+    color: white;
+
+}
+.planet p ,td{
+    padding-left: 30px;
+    padding-bottom: 150px;
+    font-family: "FindSansPro";
+    font-size: 28px;
+    color: white;
+    overflow-wrap: anywhere;
+}
+
+.planet a {
+    display: inline-block; 
+    font-family: "FindSansPro";
+    font-size: 18px;
+    color: #837dee;
+    overflow-wrap: anywhere;
+}
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;  
+    color: white;
+    border-collapse: separate; 
+    
+    border-radius: 12px; 
+}
+
+th, td {
+ 
+  padding: 8px 12px;
+  border-radius: 12px;
+  background: #111827;
+  
+}
+thead th {
+  background: #111827;          
+}
+
+
+
+.star h1 {
+    padding-left: 30px;
+    font-family: "FindSansPro";
+    font-size: 48px;
+    color: white;
+
+}
+.star p{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-family: "FindSansPro";
+    font-size: 28px;
+    color: white;
+    overflow-wrap: anywhere;
+}
+
+.star a{
+    display: inline-block; 
+    font-family: "FindSansPro";
+    font-size: 18px;
+    color: #837dee;
+    overflow-wrap: anywhere;  /* разрыв слов */
+}
+
+.star img {
+    display: block;
+    width: 30%;
+
+    border-radius: 50px;
+}
+
+
+
+
+
+.file {
+    padding: 20px;
+    border-radius: 50px; 
+    background: #111827;
+    box-shadow: 0 3px 6px #111622;
+}
+
+.download , .nameplanet , .docs , button, .pochta ,.problem{
+    padding: 10px 18px;
+    border-radius: 50px;
+    background: linear-gradient(90deg,  #2916d7,  #2299ee);
+    background-clip: text;
+    color: transparent;
+    box-shadow: 0 3px 12px black;
+    border: 1px solid ;
+
+}
+label{
+    padding-top: 50px;
+    text-align: center;
+    font-family: "FindSansPro";
+    font-size: 64px;
+    background: linear-gradient(90deg, #2916d7, #2299ee);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+button {
+    font-family: "FindSansPro";
+    font-size: 64px;
+}
+
+
+
+#message,#email,#docs,#nameplanet{
+    padding: 10px 18px;
+    border-radius: 10px;
+    color: black;
+    
+    box-shadow: 0 6px 12px #111622;
+    border: 2px solid ;
+    border-color: #031e8a;
+
+}
